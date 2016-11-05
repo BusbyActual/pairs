@@ -1,0 +1,21 @@
+{
+  "name": "pairs",
+  "version": "1.0.0",
+  "description": "Grouping made easy",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "dependencies": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BusbyActual/pairs.git"
+  },
+  "author": "Ryan Busby",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BusbyActual/pairs/issues"
+  },
+  "homepage": "https://github.com/BusbyActual/pairs#readme"
+}
