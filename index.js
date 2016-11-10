@@ -10,10 +10,7 @@ var mongoURI = process.env.MONGODB_URI || 'mongodb://localhost/pairs';
 mongoose.connect(mongoURI);
 
 //var db = require('./config/db');
-
 var port = process.env.PORT || 1337;
-
-
 
 
 
@@ -32,7 +29,9 @@ app.use(express.static(__dirname + '/public'));
 
 // routes ==================================================
 //require('./app/routes')(app);
-
+app.get('/history', function (req, res) {
+  res.send('Render all past pairs here')
+})
 
 app.listen(port);
 
